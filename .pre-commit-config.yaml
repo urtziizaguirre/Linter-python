@@ -9,6 +9,10 @@ repos:
     rev: 21.12b0
     hooks:
     -   id: black
+-   repo: https://github.com/pycqa/flake8
+    rev: 3.9.0
+    hooks:
+    -   id: flake8
 ci:
     autofix_commit_msg: |
         [pre-commit.ci] auto fixes from pre-commit.com hooks
